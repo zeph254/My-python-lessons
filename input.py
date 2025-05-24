@@ -24,3 +24,16 @@ price = float(input("WHAT IS THE PRICE OF THE ITEM?: "))
 quantity = int(input("HOW MANY ITEMS WOULD YOU LIKE TO BUY?: "))
 total = price * quantity
 print(f"You have bought {quantity} {item}(s) for a total of ${total}")
+
+
+# Madlibs game
+print("Welcome to Madlibs!")
+print("Please enter the following information:")
+adjective = input("Adjective: ")
+noun = input("Noun: ")
+verb = input("Verb: ")
+adverb = input("Adverb: ")
+madlib = f"The {adjective} {noun} {verb} {adverb}."
+print("Here is your Madlib:")
+print(madlib)
+
