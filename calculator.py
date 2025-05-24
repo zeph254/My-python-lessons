@@ -17,3 +17,16 @@ else:
     result = "Error! Invalid operator."
 
 print("Result:", result)
+
+
+unit = input("Enter the unit (C/F): ").upper()
+temperature = float(input("Enter the temperature: "))
+
+if unit == "C":
+    converted_temp = (temperature * 9/5) + 32
+    print(f"{temperature}°C is equal to {converted_temp}°F")
+elif unit == "F":
+    converted_temp = (temperature - 32) * 5/9
+    print(f"{temperature}°F is equal to {converted_temp}°C")
+else:
+    print("Error! Invalid unit. Please enter 'C' for Celsius or 'F' for Fahrenheit.")
