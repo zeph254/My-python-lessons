@@ -21,4 +21,10 @@ online = False
 if online:
     print("You are online.")
 else:
-    print("You are offline.")    
+    print("You are offline.")   
+
+# conditional expressions - shorthand for if-else statements
+
+num = int(input("Enter a number: "))
+result = "Even" if num % 2 == 0 else "Odd"
+print(result)     
